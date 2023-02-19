@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Tilda Sans';
+    src: url('../fonts/tilda-sans/TildaSans-Light.eot');
+    src: local('Tilda Sans Light'), local('TildaSans-Light'),
+        url('../fonts/tilda-sans/TildaSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tilda-sans/TildaSans-Light.woff2') format('woff2'),
+        url('../fonts/tilda-sans/TildaSans-Light.woff') format('woff'),
+        url('../fonts/tilda-sans/TildaSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tilda Sans';
+    src: url('../fonts/tilda-sans/TildaSans-Regular.eot');
+    src: local('Tilda Sans'), local('TildaSans-Regular'),
+        url('../fonts/tilda-sans/TildaSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tilda-sans/TildaSans-Regular.woff2') format('woff2'),
+        url('../fonts/tilda-sans/TildaSans-Regular.woff') format('woff'),
+        url('../fonts/tilda-sans/TildaSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tilda Sans';
+    src: url('../fonts/tilda-sans/TildaSans-Medium.eot');
+    src: local('Tilda Sans Medium'), local('TildaSans-Medium'),
+        url('../fonts/tilda-sans/TildaSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tilda-sans/TildaSans-Medium.woff2') format('woff2'),
+        url('../fonts/tilda-sans/TildaSans-Medium.woff') format('woff'),
+        url('../fonts/tilda-sans/TildaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tilda Sans';
+    src: url('../fonts/tilda-sans/TildaSans-Bold.eot');
+    src: local('Tilda Sans Bold'), local('TildaSans-Bold'),
+        url('../fonts/tilda-sans/TildaSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tilda-sans/TildaSans-Bold.woff2') format('woff2'),
+        url('../fonts/tilda-sans/TildaSans-Bold.woff') format('woff'),
+        url('../fonts/tilda-sans/TildaSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tilda Sans';
+    src: url('../fonts/tilda-sans/TildaSans-ExtraBold.eot');
+    src: local('Tilda Sans Extra Bold'), local('TildaSans-ExtraBold'),
+        url('../fonts/tilda-sans/TildaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tilda-sans/TildaSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/tilda-sans/TildaSans-ExtraBold.woff') format('woff'),
+        url('../fonts/tilda-sans/TildaSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Durl cyr
+====================================================================== */
+
+/* @font-face {
+    font-family: 'Druk Cyr';
+    src: url('../fonts/druk-cyr/DrukCyr-Medium.eot');
+    src: local('Druk Cyr Medium'), local('DrukCyr-Medium'),
+        url('../fonts/druk-cyr/DrukCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/druk-cyr/DrukCyr-Medium.woff2') format('woff2'),
+        url('../fonts/druk-cyr/DrukCyr-Medium.woff') format('woff'),
+        url('../fonts/druk-cyr/DrukCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('../fonts/druk-cyr/DrukCyr-Bold.eot');
+    src: local('Druk Cyr Bold'), local('DrukCyr-Bold'),
+        url('../fonts/druk-cyr/DrukCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/druk-cyr/DrukCyr-Bold.woff2') format('woff2'),
+        url('../fonts/druk-cyr/DrukCyr-Bold.woff') format('woff'),
+        url('../fonts/druk-cyr/DrukCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('../fonts/druk-cyr/DrukCyr-Heavy.eot');
+    src: local('Druk Cyr Heavy'), local('DrukCyr-Heavy'),
+        url('../fonts/druk-cyr/DrukCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/druk-cyr/DrukCyr-Heavy.woff2') format('woff2'),
+        url('../fonts/druk-cyr/DrukCyr-Heavy.woff') format('woff'),
+        url('../fonts/druk-cyr/DrukCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
