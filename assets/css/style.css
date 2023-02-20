@@ -35,7 +35,6 @@ body {
     background-color: #17150D;
 }
 
-
 .wrapper {
     min-height: 100%;
 
@@ -53,12 +52,13 @@ body {
 
 /* Help classes */
 .gradient-text {
-    background: linear-gradient(to left, #C2A97D 50%, #A67C46);
-    background-clip: text;
+    /* background: linear-gradient(to left, #C2A97D 50%, #A67C46); */
+    color: #C2A97D;
+    /* background-clip: text;
     -webkit-background-clip: text;
 
     text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 
@@ -553,18 +553,22 @@ body {
     border-radius: 26px;
 }
 
-.programs__content {
-    text-align: center;
-}
-
 .programs__age {
-    margin-left: 7px;
+    position: relative;
+    padding: 0 0 5px 20px;
+    margin-bottom: 5px;
+
     font-size: 15px;
+    border-bottom: 1px dashed rgba(249, 254, 255, .5);
 }
 
-.programs__age::before{
+.programs__age::before {
     content: "";
-    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: block;
     width: 16px;
     height: 14px;
 
@@ -572,22 +576,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.programs__player{
-    font-weight: 800;;
+.programs__player {
+    font-weight: 800;
     font-size: 16px;
 }
 
-.programs__age::after{
-    content: "";
-    display: block;
-    max-width: 121px;
-    margin: 9px 0 6px 0 ;
-    opacity: 0.5;
-
-    border: 1px dashed #F9FEFF;
-}
-
-.programs__info{
+.programs__info {
     display: flex;
     justify-content: space-between;
     padding: 9px 15px;
@@ -600,7 +594,7 @@ body {
     border-radius: 15px;
 }
 
-.programs__price{
+.programs__price {
     font-weight: 800;
 }
 
@@ -614,10 +608,11 @@ body {
 
 .programs__btn--border {
     border-radius: 15px;
+    text-transform: none;
 }
 
 
-/* catalog */
+/* teachers */
 .teachers {
     position: relative;
 }
@@ -626,16 +621,19 @@ body {
     text-align: left;
 }
 
-.teacher__square {
-    position: absolute;
-    right: -80px;
-    top: 70px;
-    width: 241px;
-    height: 511px;
-    opacity: .05;
+.teachers::after {
+    content: "";
+    width: 160px;
+    height: 510px;
 
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: -1;
+
+    opacity: .05;
     background: linear-gradient(180deg, #C2A97D 0%, #A67C46 100%);
-    border-radius: 25px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .teachers__inner {
@@ -645,7 +643,7 @@ body {
 }
 
 .teacher__item{
-    max-width: 150px;
+    width: 48%;
     margin-bottom: 20px;
 
     text-align: center;
